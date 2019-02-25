@@ -1,0 +1,570 @@
+@charset "UTF-8";
+.clear:after {
+  content: "";
+  clear: both;
+  height: 0;
+  display: block;
+  visibility: hidden;
+  overflow: hidden;
+}
+
+body {
+  position: relative;
+}
+
+#section {
+  width: 100%;
+  background: #f7f7f5;
+}
+
+#section .wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.section_top .info .subject {
+  padding: 38px 0 25px;
+  color: #333;
+  font-size: 24px;
+  line-height: 1;
+  text-align: center;
+  position: relative;
+}
+
+.section_top .info .more {
+  color: #333;
+  font-size: 14px;
+  line-height: 1;
+  position: absolute;
+  top: 50px;
+  right: 0;
+}
+
+.section_top .info .more:hover {
+  color: red;
+}
+
+.section_top .info .more .icon-arrow-r {
+  font-size: 12px;
+}
+
+.goodslist {
+  display: inline-block;
+  width: 100%;
+  line-height: 0;
+  text-align: justify;
+}
+
+.goodslist > li {
+  width: 394px;
+  height: 511px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 10px;
+  font-size: 0;
+  margin: 0 1px;
+  text-align: center;
+  background-color: #fff;
+  transition: all .2s linear;
+}
+
+.goodslist > li:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  transform: translate3d(0, -2px, 0);
+}
+
+.goodslist > li:hover .color {
+  display: block;
+}
+
+.goodslist > li > a {
+  display: block;
+}
+
+.goodslist > li > a img {
+  margin-top: 58px;
+  width: 230px;
+  height: 230px;
+}
+
+.goodslist > li .prodinfo {
+  position: relative;
+}
+
+.goodslist > li .prodinfo .name {
+  padding-top: 29px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #333;
+}
+
+.goodslist > li .prodinfo .give {
+  height: 24px;
+  line-height: 24px;
+  color: #333;
+  padding: 8px 50px 53px;
+  font-size: 14px;
+}
+
+.goodslist > li .color {
+  width: 394px;
+  position: absolute;
+  left: 0px;
+  bottom: 135px;
+  text-align: center;
+  background: #fff;
+  display: none;
+}
+
+.goodslist > li .color .name {
+  padding-top: 29px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #333;
+}
+
+.goodslist > li .color > ul {
+  padding-top: 8px;
+}
+
+.goodslist > li .color > ul > li {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  margin: 0 6px;
+}
+
+.goodslist > li .color > ul > li:hover {
+  transform: translate3d(0, -2px, 0);
+  box-shadow: 0 7px 10px 0 rgba(87, 87, 84, 0.3);
+}
+
+.goodslist > li .color > ul > li:nth-of-type(1) {
+  background-color: #1B31C1;
+  background-image: linear-gradient(to right bottom, #1B31C1, #450B8E);
+}
+
+.goodslist > li .color > ul > li:nth-of-type(2) {
+  background-color: #010102;
+  background-image: linear-gradient(to right bottom, #010102, #151C8C);
+}
+
+.goodslist > li .color > ul > li:nth-of-type(3) {
+  background-color: #FCDDEA;
+  background-image: linear-gradient(to right bottom, #FCDDEA, #DAB0E4);
+}
+
+.goodslist > li .price {
+  font-size: 18px;
+  color: #f51919;
+  line-height: 1;
+}
+
+.goodslist > li .price::before {
+  content: "¥";
+  margin-right: 2px;
+  color: #f51919;
+  font-size: 14px;
+  font-family: "Avenir Roman", "Microsoft YaHei", 微软雅黑;
+}
+
+.section_middle .info .subject {
+  padding: 38px 0 25px;
+  color: #333;
+  font-size: 24px;
+  line-height: 1;
+  text-align: center;
+  position: relative;
+}
+
+.section_middle .info .more {
+  color: #333;
+  font-size: 14px;
+  line-height: 1;
+  position: absolute;
+  top: 50px;
+  right: 0;
+}
+
+.section_middle .info .more:hover {
+  color: red;
+}
+
+.section_middle .info .more .icon-arrow-r {
+  font-size: 12px;
+}
+
+.phone-box {
+  display: inline-block;
+  width: 100%;
+  line-height: 0;
+  text-align: justify;
+}
+
+.phone-box > li {
+  width: 293px;
+  height: 380px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 3px 10px 0;
+  font-size: 0;
+  text-align: center;
+  background-color: #fff;
+  transition: all .2s linear;
+}
+
+.phone-box > li:nth-of-type(1) {
+  width: 595px;
+  height: 380px;
+}
+
+.phone-box > li:nth-of-type(1) > a {
+  display: block;
+}
+
+.phone-box > li:nth-of-type(1) > a img {
+  margin-top: 0;
+  width: 595px;
+  height: 380px;
+}
+
+.phone-box > li:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  transform: translate3d(0, -2px, 0);
+}
+
+.phone-box > li:hover .color {
+  display: block;
+}
+
+.phone-box > li > a {
+  display: block;
+}
+
+.phone-box > li > a img {
+  margin-top: 58px;
+  width: 172px;
+  height: 172px;
+}
+
+.phone-box > li .prodinfo {
+  position: relative;
+}
+
+.phone-box > li .prodinfo .name {
+  padding-top: 16px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #333;
+}
+
+.phone-box > li .prodinfo .give {
+  height: 24px;
+  line-height: 24px;
+  color: #333;
+  padding: 2px 15px 40px;
+  font-size: 12px;
+}
+
+.phone-box > li .color {
+  width: 293px;
+  position: absolute;
+  left: 0px;
+  bottom: 80px;
+  z-index: 1;
+  text-align: center;
+  background: #fff;
+  display: none;
+}
+
+.phone-box > li .color .name {
+  padding-top: 29px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #333;
+}
+
+.phone-box > li .color > ul {
+  padding-top: 8px;
+}
+
+.phone-box > li .color > ul > li {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  margin: 0 6px;
+}
+
+.phone-box > li .color > ul > li:hover {
+  transform: translate3d(0, -2px, 0);
+  box-shadow: 0 7px 10px 0 rgba(87, 87, 84, 0.3);
+}
+
+.phone-box > li .color > ul > li:nth-of-type(1) {
+  background-color: #1B31C1;
+  background-image: linear-gradient(to right bottom, #1B31C1, #450B8E);
+}
+
+.phone-box > li .color > ul > li:nth-of-type(2) {
+  background-color: #010102;
+  background-image: linear-gradient(to right bottom, #010102, #151C8C);
+}
+
+.phone-box > li .color > ul > li:nth-of-type(3) {
+  background-color: #FCDDEA;
+  background-image: linear-gradient(to right bottom, #FCDDEA, #DAB0E4);
+}
+
+.phone-box > li .price {
+  font-size: 16px;
+  color: #f51919;
+  line-height: 1;
+}
+
+.phone-box > li .price::before {
+  content: "¥";
+  margin-right: 2px;
+  color: #f51919;
+  font-size: 14px;
+  font-family: "Avenir Roman", "Microsoft YaHei", 微软雅黑;
+}
+
+.section_bottom .info .subject {
+  padding: 38px 0 25px;
+  color: #333;
+  font-size: 24px;
+  line-height: 1;
+  text-align: center;
+  position: relative;
+}
+
+.section_bottom .info .more {
+  color: #333;
+  font-size: 14px;
+  line-height: 1;
+  position: absolute;
+  top: 50px;
+  right: 0;
+}
+
+.section_bottom .info .more:hover {
+  color: red;
+}
+
+.section_bottom .info .more .icon-arrow-r {
+  font-size: 12px;
+}
+
+.section_bottom .info > ul {
+  position: absolute;
+  top: 49px;
+  right: 43px;
+}
+
+.section_bottom .info > ul li {
+  float: left;
+}
+
+.section_bottom .info > ul li:hover a {
+  color: red;
+}
+
+.section_bottom .info > ul li a {
+  display: inline-block;
+  margin: 0 4px;
+  color: #333;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.peijian {
+  display: inline-block;
+  width: 100%;
+  line-height: 0;
+  text-align: justify;
+  padding-bottom: 70px;
+}
+
+.peijian > li {
+  width: 293px;
+  height: 380px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 3px 10px 0;
+  font-size: 0;
+  text-align: center;
+  background-color: #fff;
+  transition: all .2s linear;
+}
+
+.peijian > li:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  transform: translate3d(0, -2px, 0);
+}
+
+.peijian > li:hover .color {
+  display: block;
+}
+
+.peijian > li > a {
+  display: block;
+}
+
+.peijian > li > a img {
+  margin-top: 58px;
+  width: 172px;
+  height: 172px;
+}
+
+.peijian > li .prodinfo {
+  position: relative;
+}
+
+.peijian > li .prodinfo .name {
+  padding-top: 16px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #333;
+}
+
+.peijian > li .prodinfo .give {
+  height: 24px;
+  line-height: 24px;
+  color: #333;
+  padding: 2px 15px 40px;
+  font-size: 12px;
+}
+
+.peijian > li .color {
+  width: 293px;
+  position: absolute;
+  left: 0px;
+  bottom: 80px;
+  z-index: 1;
+  text-align: center;
+  background: #fff;
+  display: none;
+}
+
+.peijian > li .color .name {
+  padding-top: 29px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #333;
+}
+
+.peijian > li .color > ul {
+  padding-top: 8px;
+}
+
+.peijian > li .color > ul > li {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  margin: 0 6px;
+}
+
+.peijian > li .color > ul > li:hover {
+  transform: translate3d(0, -2px, 0);
+  box-shadow: 0 7px 10px 0 rgba(87, 87, 84, 0.3);
+}
+
+.peijian > li .color > ul > li:nth-of-type(1) {
+  background-color: #1B31C1;
+  background-image: linear-gradient(to right bottom, #1B31C1, #450B8E);
+}
+
+.peijian > li .color > ul > li:nth-of-type(2) {
+  background-color: #010102;
+  background-image: linear-gradient(to right bottom, #010102, #151C8C);
+}
+
+.peijian > li .color > ul > li:nth-of-type(3) {
+  background-color: #FCDDEA;
+  background-image: linear-gradient(to right bottom, #FCDDEA, #DAB0E4);
+}
+
+.peijian > li .price {
+  font-size: 16px;
+  color: #f51919;
+  line-height: 1;
+}
+
+.peijian > li .price::before {
+  content: "¥";
+  margin-right: 2px;
+  color: #f51919;
+  font-size: 14px;
+  font-family: "Avenir Roman", "Microsoft YaHei", 微软雅黑;
+}
+
+#side-bar {
+  position: fixed;
+  z-index: 99;
+  right: 0;
+  bottom: 50px;
+  margin-bottom: 50px;
+}
+
+#side-bar > li {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  cursor: pointer;
+  text-align: center;
+  font-size: 24px;
+  line-height: 50px;
+  transition: all 0.4s;
+  position: relative;
+}
+
+#side-bar > li:hover .prompt {
+  display: block;
+}
+
+#side-bar > li:hover {
+  background-color: #ebebeb;
+  color: red;
+}
+
+#side-bar .backtop {
+  display: none;
+}
+
+#side-bar .prompt {
+  display: none;
+  width: 133px;
+  color: #4c4c4c;
+  font-size: 16px;
+  line-height: 48px;
+  text-align: center;
+  cursor: default;
+  position: absolute;
+  right: 60px;
+  top: 0;
+  border: 1px solid #ebebeb;
+  background-color: #fff;
+  box-shadow: 0 0 50px 1px rgba(100, 100, 100, 0.1);
+}
+
+#side-bar .prompt .triangle {
+  position: absolute;
+  right: -7px;
+  top: 19px;
+  width: 7px;
+  height: 12px;
+  background: center center no-repeat url(../img/sidebar-triangle.png);
+}

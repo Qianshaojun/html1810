@@ -1,0 +1,313 @@
+#header {
+  width: 100%;
+  background: #000;
+}
+
+#header .wrapper {
+  height: 780px;
+  width: 1200px;
+  position: relative;
+  margin: 0 auto;
+}
+
+#header .wrapper img {
+  vertical-align: middle;
+}
+
+#header .wrapper .logo {
+  position: absolute;
+  top: 0;
+  left: 243px;
+}
+
+#header .wrapper .logo > a {
+  display: block;
+  height: 98px;
+  width: 98px;
+  background: url(https://accountstatic.vivo.com.cn/accountstatic.vivo.com.cn/static/img/logo-1.f315fed.png);
+}
+
+#header .wrapper .login-box {
+  position: absolute;
+  top: 74px;
+  right: 0;
+  width: 420px;
+  height: 667px;
+  background: rgba(255, 255, 255, 0.97);
+}
+
+#header .wrapper .login-box .inner-box {
+  padding: 30px 30px 20px;
+  min-height: 513px;
+}
+
+#header .wrapper .login-box .inner-box .logo-area {
+  width: 150px;
+  height: 42px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+#header .wrapper .login-box .inner-box .logo-area img {
+  width: 100%;
+  height: 100%;
+}
+
+#header .wrapper .login-box .inner-box p {
+  margin-top: 15px;
+  font-family: HYQiHei-FZS;
+  font-size: 19px;
+  font-weight: 400;
+  font-stretch: normal;
+  letter-spacing: 0;
+  color: #000;
+  text-align: center;
+}
+
+#header .wrapper .login-box .inner-box .modul {
+  text-align: right;
+  font-size: 14px;
+  color: #0091ff;
+  margin-top: 20px;
+}
+
+#header .wrapper .login-box .inner-box .input-area {
+  margin-top: 15px;
+  width: 360px;
+  height: 48px;
+}
+
+#header .wrapper .login-box .inner-box .input-area .password {
+  margin-top: 20px;
+}
+
+#header .wrapper .login-box .inner-box .input-area .username input,
+#header .wrapper .login-box .inner-box .input-area .password input {
+  width: 100%;
+  height: 46px;
+  font-size: 16px;
+  padding-left: 12px;
+  outline: 0;
+  border: 1px solid #dedfe0;
+  background-color: transparent !important;
+}
+
+#header .wrapper .login-box .inner-box .input-area .confirm {
+  width: 360px;
+  height: 20px;
+  font-size: 14px;
+  color: #ec3f3f;
+  margin-top: 12px;
+  text-align: left;
+}
+
+#header .wrapper .login-box .inner-box .input-area .check-box {
+  width: 374px;
+  margin-top: 19px;
+  font-size: 14px;
+  color: #666;
+}
+
+#header .wrapper .login-box .inner-box .input-area .check-box::before {
+  content: '';
+  display: table;
+}
+
+#header .wrapper .login-box .inner-box .input-area .check-box > span {
+  color: #009bfd;
+  cursor: pointer;
+  margin-right: 145px;
+}
+
+#header .wrapper .login-box .inner-box .input-area .check-box > input {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+  outline: 0;
+  border: 1px solid #dedfe0;
+  cursor: pointer;
+  background-color: #fff;
+  vertical-align: middle;
+}
+
+#header .wrapper .login-box .inner-box .input-area .submit input {
+  width: 360px;
+  height: 48px;
+  background-color: #46a1fa;
+  background-image: linear-gradient(90deg, #46a1fa, #067df8);
+  line-height: 48px;
+  font-size: 17px;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+}
+
+#header .wrapper .login-box .inner-box .input-area .submit input:hover {
+  background-color: #0a7ff8;
+  background-image: linear-gradient(90deg, #0a7ff8, #067df8);
+}
+
+#header .wrapper .login-box .inner-box .input-area .toregistor > a {
+  display: block;
+  text-decoration: none;
+  width: 360px;
+  height: 48px;
+  line-height: 48px;
+  border: 1px solid #0091ff;
+  color: #0091ff;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 15px;
+  cursor: pointer;
+  background: #fff;
+}
+
+#header .wrapper .login-box .inner-box .input-area .toregistor > a:hover {
+  background-color: rgba(0, 144, 255, 0.2);
+}
+
+#header .wrapper .login-box .inner-box .input-area .textarea {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #999;
+}
+
+#header .wrapper .login-box .inner-box .input-area .foget {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#header .wrapper .login-box .inner-box .input-area .otherway {
+  margin-top: 30px;
+  color: #999;
+  font-size: 13px;
+  text-align: center;
+}
+
+#header .wrapper .login-box .inner-box .input-area .otherway .o-title {
+  position: relative;
+}
+
+#header .wrapper .login-box .inner-box .input-area .otherway .o-title::before {
+  content: "";
+  width: 130px;
+  height: 1px;
+  background-color: #ccc;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+#header .wrapper .login-box .inner-box .input-area .otherway .o-title::after {
+  content: "";
+  width: 130px;
+  height: 1px;
+  background-color: #ccc;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+#header .wrapper .login-box .inner-box .input-area .otherway .iconbox {
+  margin-top: 15px;
+  text-align: center;
+}
+
+#header .wrapper .login-box .inner-box .input-area .otherway .iconbox::before {
+  display: table;
+  content: '';
+}
+
+#header .wrapper .login-box .inner-box .input-area .otherway .iconbox ul li {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  margin-left: 18px;
+}
+
+#header .wrapper .login-box .inner-box .input-area .otherway .iconbox ul li .imgqq {
+  display: block;
+  width: 26px;
+  height: 26px;
+  background-image: url(https://accountstatic.vivo.com.cn/accountstatic.vivo.com.cn/static/img/QQ.dca07e2.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: block;
+  cursor: pointer;
+}
+
+#header .wrapper .login-box .inner-box .input-area .otherway .iconbox ul li .imgweixin {
+  width: 26px;
+  height: 26px;
+  background-image: url(https://accountstatic.vivo.com.cn/accountstatic.vivo.com.cn/static/img/weixin.2360293.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: block;
+  cursor: pointer;
+}
+
+#header .wrapper .login-box .inner-box .input-area .otherway .iconbox ul li .imgzhifu {
+  width: 26px;
+  height: 26px;
+  background-image: url(https://accountstatic.vivo.com.cn/accountstatic.vivo.com.cn/static/img/zhifubao.5349adf.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  display: block;
+}
+
+#header .wrapper .login-box .inner-box .input-area .otherway .iconbox ul li .imgweibo {
+  width: 26px;
+  height: 26px;
+  background-image: url(https://accountstatic.vivo.com.cn/accountstatic.vivo.com.cn/static/img/weibo.d8c0561.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: block;
+  cursor: pointer;
+}
+
+#header .wrapper .login-box .inner-box .input-area .otherway .iconbox ul li .imgrenren {
+  width: 26px;
+  height: 26px;
+  background-image: url(https://accountstatic.vivo.com.cn/accountstatic.vivo.com.cn/static/img/renren.6be0149.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  display: block;
+}
+
+#footer {
+  margin-top: 135px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 11px;
+  color: #9d9d9d;
+}
+
+#footer .service a {
+  color: #666;
+  text-decoration: none;
+}
+
+#footer .service a img {
+  width: 16px;
+  height: 14px;
+  vertical-align: text-bottom;
+}
+
+#footer .service a .onlinecustom {
+  margin-right: 40px;
+}
+
+#footer p {
+  padding: 10px 0;
+  font-size: 10px;
+  box-sizing: border-box;
+  color: #9d9d9d;
+}

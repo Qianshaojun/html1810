@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="sass/cart.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="header"> </div>
+    <div id="main">
+        <div class="wrapper">
+            <div class="top">
+                我的购物车
+                <a href="index.html">继续购物<b>></b></a>
+            </div>
+            <!--购物车为空时显示的盒子-->
+            <div class="prod-list" style="display: none">
+                <img src="https://shopstatic.vivo.com.cn/vivoshop/web/dist/img/prod/shopping-cart_50507a3.png">
+                <div class="result">哎呀，购物车为空！</div>
+                <div class="result-btn">
+                    <a href="index.htm">去选购逛逛</a>
+                    <a href="javascript:;">我的收藏</a>
+                </div>
+            </div>
+            <!--有商品时显示的盒子-->
+            <div class="cart-head">
+                <table class="order-table">
+                    <tbody>
+                        <tr>
+                            <th class="check-col">
+                                <label class="J_viewCheckAll">
+                                        <i class="checkbox checked"></i>
+                                        <a href="javascript:void(0);">全选</a>
+                                    </label>
+                            </th>
+                            <th class="goods-col">商品名称</th>
+                            <th class="price-col">价格（元）</th>
+                            <th class="quantity-col">数量</th>
+                            <th class="benefit-col">优惠</th>
+                            <th class="vcoin-col">赠送积分</th>
+                            <th class="sum-col">小计（元）</th>
+                            <th class="action-col">操作</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="prodlist-box">
+                <table class="order-table">
+                    <tbody>
+                        <tr>
+                            <td class="check-col"><i class="checkbox checked"></i></td>
+                            <td class="prod-pic">
+                                <div class="figure"><img src="#"></div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+    <script src="script/js/jquery.js"></script>
+    <script>
+        $('#header').load('header.html');
+        $('#footer').load('footer.html');
+    </script>
+</body>
+
+</html>

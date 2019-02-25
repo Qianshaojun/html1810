@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>datail</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="sass/header.css" rel="stylesheet" type="text/css">
+    <link href="sass/details.css" rel="stylesheet" type="text/css">
+    <link href="fonts/iconfont_c4371bb.css" type="text/css" rel="stylesheet">
+    <link href="fonts/home_a552309.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header"></div>
+    <div id="main">
+        <div class="wrapper">
+            <div class="crumbs">
+                <a href="index.html">商城首页</a>
+                <b></b>
+                <a href="#">配件产品</a>
+            </div>
+            <div class="allleft clear">
+                <div class="container">
+                    <img alt="商品图片" class="smallpic">
+                    <div class="sf"></div>
+                </div>
+                <div class="bf">
+                    <img alt="" class="bpic">
+                </div>
+                <!--放大镜-->
+                <div class="piclist">
+                    <a href="javascript:;" class="left"></a>
+                    <div class="list clear">
+                        <ul>
+
+                        </ul>
+                    </div>
+                    <a href="javascript:;" class="right"></a>
+                </div>
+                <ul class="cl">
+                    <li><a href="javascript:;"><i class="iconshop icon-star"></i>收藏商品</a></li>
+                    <li><a href="javascript:;"><i class="iconshop icon-v-share"></i>分享</a></li>
+                </ul>
+            </div>
+            <!--下面一列图片-->
+            <div class="allright clear">
+                <div class="prod-detail">
+                    <h1></h1>
+                    <div class="price-box">
+                        <div class="summary-price"><dfn>¥</dfn></div>
+                        <div class="summary-promotion"><span>积分</span>购买即送199积分</div>
+                    </div>
+                    <div class="serverbox clear">
+                        <dl>
+                            <dt>商品支持：</dt>
+                            <dd><i class="iconshop icon-font-success"></i>花呗分期</dd>
+                            <dd><i class="iconshop icon-font-success"></i>依旧换新</dd>
+                        </dl>
+                    </div>
+                    <div class="color">
+                        <h2>颜色</h2>
+                        <div class="colorbox"></div>
+                    </div>
+                    <div class="number">
+                        <h2>数量</h2>
+                        <div class="numberbox clear">
+                            <label class="dec">&nbsp;</label>
+                            <input class="add-num" type="text" maxlength="1" value="1" readonly>
+                            <label class="inc">&nbsp;</label>
+                        </div>
+                    </div>
+                    <div class="lastbox">
+                        <div class="lastprice"><dfn>¥</dfn></div>
+                        <div class="lastdetail">已选:<b class="lastcolor"></b>&nbsp;官方标配<b class="lastnum">1</b>件</div>
+                    </div>
+                    <div class="button">
+                        <button class="incart">加入购物车</button>
+                        <button class="buynow">立即购买</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+    <script src="script/js/jquery.js"></script>
+    <script src="script/js/cookie.js"></script>
+    <script src="script/js/detail.js"></script>
+    <script>
+        $('#header').load('header.html');
+        $('#footer').load('footer.html');
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,192 @@
+#main {
+  padding-top: 5px;
+  background: #f7f7f5;
+}
+
+#main .wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#main .wrapper .top {
+  height: 66px;
+  background: #fff;
+  text-align: center;
+  line-height: 66px;
+  width: 100%;
+  color: #666;
+  overflow: hidden;
+  font-size: 20px;
+  font-weight: 400;
+  vertical-align: middle;
+  white-space: nowrap;
+  margin-bottom: 19px;
+}
+
+#main .wrapper .top > a {
+  float: right;
+  color: #333;
+  font-size: 14px;
+  margin: 0 35px 0 0;
+  text-decoration: none;
+}
+
+#main .wrapper .top > a b {
+  font-family: \5b8b\4f53;
+  font-weight: 700;
+  color: #333;
+  font-size: 16px;
+  display: inline-block;
+  margin-left: 4px;
+  margin-bottom: 3px;
+}
+
+#main .wrapper .prod-list {
+  height: 452px;
+  background: #fff;
+  text-align: center;
+}
+
+#main .wrapper .prod-list img {
+  display: inline-block;
+  width: 189px;
+  height: 144px;
+  margin-top: 76px;
+}
+
+#main .wrapper .prod-list .result {
+  margin-top: 20px;
+  font-size: 15px;
+  color: #666;
+  text-align: center;
+}
+
+#main .wrapper .prod-list .result-btn {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#main .wrapper .prod-list .result-btn > a {
+  font-size: 19px;
+  line-height: 48px;
+  width: 190px;
+  height: 48px;
+  background-color: #008ddc;
+  border-radius: 100px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#main .wrapper .prod-list .result-btn > a:nth-of-type(1) {
+  margin-right: 60px;
+}
+
+#main .wrapper .cart-head {
+  background: #fff;
+  padding: 0 26px;
+}
+
+#main .wrapper .cart-head .order-table {
+  width: 100%;
+  color: #686868;
+  table-layout: fixed;
+  text-align: center;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+#main .wrapper .cart-head .order-table .checkbox {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  vertical-align: middle;
+  background: url(../img/prod-detail-icon_41ff7d3.png) no-repeat -10px -237px;
+  margin: 0 10px 2px 0;
+}
+
+#main .wrapper .cart-head .order-table .checked {
+  background-position: -10px -205px;
+}
+
+#main .wrapper .cart-head .order-table th {
+  height: 64px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #333;
+  line-height: 64px;
+}
+
+#main .wrapper .cart-head .order-table th a {
+  text-decoration: none;
+  color: #333;
+}
+
+#main .wrapper .cart-head .order-table .check-col {
+  width: 175px;
+  text-align: left;
+}
+
+#main .wrapper .cart-head .order-table .goods-col {
+  width: 250px;
+  text-align: center;
+}
+
+#main .wrapper .cart-head .order-table .price-col {
+  width: 128px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+#main .wrapper .prodlist-box {
+  border-top: 2px solid #f7f7f5;
+  background: #fff;
+  padding: 0 26px;
+}
+
+#main .wrapper .prodlist-box .order-table {
+  width: 100%;
+  color: #686868;
+  table-layout: fixed;
+  text-align: center;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+#main .wrapper .prodlist-box .order-table .check-col {
+  width: 33px;
+  text-align: left;
+}
+
+#main .wrapper .prodlist-box .order-table .checkbox {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  vertical-align: middle;
+  background: url(../img/prod-detail-icon_41ff7d3.png) no-repeat -10px -237px;
+  margin: 0 10px 2px 0;
+}
+
+#main .wrapper .prodlist-box .order-table .checked {
+  background-position: -10px -205px;
+}
+
+#main .wrapper .prodlist-box .order-table .prod-pic {
+  position: relative;
+  width: 142px;
+  vertical-align: top;
+  font-size: 0;
+  text-align: left;
+}
+
+#main .wrapper .prodlist-box .order-table .prod-pic .figure {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+}

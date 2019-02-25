@@ -1,0 +1,16 @@
+.clear:after {
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+    overflow: hidden
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

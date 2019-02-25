@@ -1,0 +1,166 @@
+#main {
+    padding-top: 5px;
+    background: #f7f7f5;
+    .wrapper {
+        width: 1200px;
+        margin: 0 auto;
+        position: relative;
+        .top {
+            height: 66px;
+            background: #fff;
+            text-align: center;
+            line-height: 66px;
+            width: 100%;
+            color: #666;
+            overflow: hidden;
+            font-size: 20px;
+            font-weight: 400;
+            vertical-align: middle;
+            white-space: nowrap;
+            margin-bottom: 19px;
+            >a {
+                float: right;
+                color: #333;
+                font-size: 14px;
+                margin: 0 35px 0 0;
+                text-decoration: none;
+                b {
+                    font-family: \5b8b\4f53;
+                    font-weight: 700;
+                    color: #333;
+                    font-size: 16px;
+                    display: inline-block;
+                    margin-left: 4px;
+                    margin-bottom: 3px
+                }
+            }
+        }
+        .prod-list {
+            height: 452px;
+            background: #fff;
+            text-align: center;
+            img {
+                display: inline-block;
+                width: 189px;
+                height: 144px;
+                margin-top: 76px;
+            }
+            .result {
+                margin-top: 20px;
+                font-size: 15px;
+                color: #666;
+                text-align: center;
+            }
+            .result-btn {
+                margin-top: 40px;
+                text-align: center;
+                >a {
+                    font-size: 19px;
+                    line-height: 48px;
+                    width: 190px;
+                    height: 48px;
+                    background-color: #008ddc;
+                    border-radius: 100px;
+                    text-align: center;
+                    color: #fff;
+                    text-decoration: none;
+                    display: inline-block;
+                    &:nth-of-type(1) {
+                        margin-right: 60px;
+                    }
+                }
+            }
+        }
+        .cart-head {
+            background: #fff;
+            padding: 0 26px;
+            .order-table {
+                width: 100%;
+                color: #686868;
+                table-layout: fixed;
+                text-align: center;
+                vertical-align: middle;
+                word-wrap: break-word;
+                .checkbox {
+                    display: inline-block;
+                    width: 20px;
+                    height: 20px;
+                    cursor: pointer;
+                    vertical-align: middle;
+                    background: url(../img/prod-detail-icon_41ff7d3.png) no-repeat -10px -237px;
+                    margin: 0 10px 2px 0;
+                }
+                .checked {
+                    background-position: -10px -205px
+                }
+                th {
+                    height: 64px;
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #333;
+                    line-height: 64px;
+                    a {
+                        text-decoration: none;
+                        color: #333;
+                    }
+                }
+                .check-col {
+                    width: 175px;
+                    text-align: left;
+                }
+                .goods-col {
+                    width: 250px;
+                    text-align: center
+                }
+                .price-col {
+                    width: 128px;
+                    padding: 0 20px;
+                    text-align: center;
+                }
+            }
+        }
+        .prodlist-box {
+            border-top: 2px solid #f7f7f5;
+            background: #fff;
+            padding: 0 26px;
+            .order-table {
+                width: 100%;
+                color: #686868;
+                table-layout: fixed;
+                text-align: center;
+                vertical-align: middle;
+                word-wrap: break-word;
+                .check-col {
+                    width: 33px;
+                    text-align: left;
+                }
+                .checkbox {
+                    display: inline-block;
+                    width: 20px;
+                    height: 20px;
+                    cursor: pointer;
+                    vertical-align: middle;
+                    background: url(../img/prod-detail-icon_41ff7d3.png) no-repeat -10px -237px;
+                    margin: 0 10px 2px 0;
+                }
+                .checked {
+                    background-position: -10px -205px
+                }
+                .prod-pic {
+                    position: relative;
+                    width: 142px;
+                    vertical-align: top;
+                    font-size: 0;
+                    text-align: left;
+                    .figure {
+                        width: 100px;
+                        height: 100px;
+                        display: inline-block;
+                        position: relative;
+                        z-index: 0;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,253 @@
+.clear:after {
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+    overflow: hidden
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    width: 100%;
+    height: 44px;
+    background: rgba(26, 26, 26, 0.9);
+    position: relative;
+    z-index: 1;
+    .blackbac {
+        position: absolute;
+        left: 0;
+        top: 44px;
+        width: 100%;
+        height: 0px;
+        background: rgba(26, 26, 26, 0.9);
+        z-index: -1;
+    }
+    .hidden {
+        display: none;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        left: 0;
+        top: 44px;
+        z-index: 199;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    .wrapper {
+        width: 1200px;
+        margin: 0 auto;
+        .logo {
+            position: absolute;
+            width: 74px;
+            height: 20px;
+            top: 10px;
+            float: left;
+            svg {
+                display: inline-block;
+                transition: all .4s ease-out;
+                fill: #fff;
+            }
+            .vivo-brand-logo-large {
+                display: none;
+            }
+        }
+        .menu {
+            font-family: "Avenir Next ST", "Microsoft YaHei", "PingFang SC";
+            width: 60%;
+            height: 100%;
+            margin: 0 auto;
+            display: table;
+            z-index: 100;
+            >li {
+                width: 1%;
+                display: table-cell;
+                vertical-align: middle;
+                text-align: left;
+                z-index: 1;
+                line-height: 44px;
+                &:nth-of-type(5) a {
+                    color: #888
+                }
+                &:hover .NEX ul {
+                    height: 150px;
+                }
+                &:hover .X ul {
+                    height: 175px
+                }
+                &:hover .Z ul {
+                    height: 175px
+                }
+                &:hover .Y ul {
+                    height: 175px
+                }
+                &:hover .custom-list {
+                    height: 236px;
+                }
+                >a {
+                    display: block;
+                    height: 100%;
+                    font-size: 14px;
+                    white-space: nowrap;
+                    padding: 0 22px;
+                    color: #fff;
+                    &:hover {
+                        color: #888
+                    }
+                }
+                .NEX {
+                    >ul {
+                        position: absolute;
+                        padding-left: 22px;
+                        height: 0px;
+                        left: 343px;
+                        top: 44px;
+                        border-left: 1px solid rgba(255, 255, 255, .2);
+                        overflow: hidden;
+                        transition: all 0.5s;
+                        li:hover a {
+                            color: #b2b2b2
+                        }
+                        a {
+                            color: rgba(255, 255, 255, .8);
+                        }
+                    }
+                }
+                .X {
+                    >ul {
+                        position: absolute;
+                        padding-left: 22px;
+                        height: 0px;
+                        left: 441px;
+                        top: 44px;
+                        border-left: 1px solid rgba(255, 255, 255, .2);
+                        overflow: hidden;
+                        transition: all 0.5s;
+                        li {
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 1.2em;
+                            padding: 0.6em 0
+                        }
+                        li:hover a {
+                            color: #b2b2b2
+                        }
+                        a {
+                            color: rgba(255, 255, 255, .8);
+                        }
+                    }
+                }
+                .Z {
+                    >ul {
+                        position: absolute;
+                        padding-left: 22px;
+                        height: 0px;
+                        left: 523px;
+                        top: 44px;
+                        border-left: 1px solid rgba(255, 255, 255, .2);
+                        overflow: hidden;
+                        transition: all 0.5s;
+                        li {
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 1.2em;
+                            padding: 0.6em 0
+                        }
+                        li:hover a {
+                            color: #b2b2b2
+                        }
+                        a {
+                            color: rgba(255, 255, 255, .8);
+                        }
+                    }
+                }
+                .Y {
+                    >ul {
+                        position: absolute;
+                        padding-left: 22px;
+                        height: 0px;
+                        left: 605px;
+                        top: 44px;
+                        border-left: 1px solid rgba(255, 255, 255, .2);
+                        overflow: hidden;
+                        transition: all 0.5s;
+                        li {
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 1.2em;
+                            padding: 0.6em 0
+                        }
+                        li:hover a {
+                            color: #b2b2b2
+                        }
+                        a {
+                            color: rgba(255, 255, 255, .8);
+                        }
+                    }
+                }
+                .search {
+                    width: 20px;
+                    height: 20px;
+                    background: url(../img/vvshop-sprites_c0b8fe7.png) no-repeat -116px -48px;
+                    position: absolute;
+                    right: 267px;
+                    top: 10px;
+                    cursor: pointer;
+                }
+                .custom {
+                    width: 20px;
+                    height: 38px;
+                    background: url(../img/vvshop-sprites_c0b8fe7.png) no-repeat -117px -84px;
+                    position: absolute;
+                    right: 175px;
+                    top: 10px;
+                    cursor: pointer;
+                }
+                .custom-list {
+                    width: 180px;
+                    height: 0px;
+                    position: absolute;
+                    right: 173px;
+                    top: 44px;
+                    background: #fff;
+                    z-index: 200;
+                    font-family: 'Avenir Next ST', "Microsoft YaHei", "PingFang SC";
+                    overflow: hidden;
+                    transition: all 0.4s;
+                    li {
+                        text-align: left;
+                        height: 50px;
+                        width: 100%;
+                        &:hover {
+                            background: rgba(241, 239, 239, 0.945);
+                        }
+                        &:nth-of-type(1) {
+                            margin-top: 18px;
+                        }
+                        a {
+                            color: #666;
+                            line-height: 50px;
+                            font-size: 14px;
+                            padding: 0 38px;
+                            &:hover {
+                                color: #0087cd
+                            }
+                        }
+                        .registor {
+                            padding: 0
+                        }
+                        .logina {
+                            padding-right: 0
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

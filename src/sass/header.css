@@ -1,0 +1,286 @@
+.clear:after {
+  content: "";
+  clear: both;
+  height: 0;
+  display: block;
+  visibility: hidden;
+  overflow: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header {
+  width: 100%;
+  height: 44px;
+  background: rgba(26, 26, 26, 0.9);
+  position: relative;
+  z-index: 1;
+}
+
+#header .blackbac {
+  position: absolute;
+  left: 0;
+  top: 44px;
+  width: 100%;
+  height: 0px;
+  background: rgba(26, 26, 26, 0.9);
+  z-index: -1;
+}
+
+#header .hidden {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 44px;
+  z-index: 199;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#header .wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#header .wrapper .logo {
+  position: absolute;
+  width: 74px;
+  height: 20px;
+  top: 10px;
+  float: left;
+}
+
+#header .wrapper .logo svg {
+  display: inline-block;
+  transition: all .4s ease-out;
+  fill: #fff;
+}
+
+#header .wrapper .logo .vivo-brand-logo-large {
+  display: none;
+}
+
+#header .wrapper .menu {
+  font-family: "Avenir Next ST", "Microsoft YaHei", "PingFang SC";
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  display: table;
+  z-index: 100;
+}
+
+#header .wrapper .menu > li {
+  width: 1%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  z-index: 1;
+  line-height: 44px;
+}
+
+#header .wrapper .menu > li:nth-of-type(5) a {
+  color: #888;
+}
+
+#header .wrapper .menu > li:hover .NEX ul {
+  height: 150px;
+}
+
+#header .wrapper .menu > li:hover .X ul {
+  height: 175px;
+}
+
+#header .wrapper .menu > li:hover .Z ul {
+  height: 175px;
+}
+
+#header .wrapper .menu > li:hover .Y ul {
+  height: 175px;
+}
+
+#header .wrapper .menu > li:hover .custom-list {
+  height: 236px;
+}
+
+#header .wrapper .menu > li > a {
+  display: block;
+  height: 100%;
+  font-size: 14px;
+  white-space: nowrap;
+  padding: 0 22px;
+  color: #fff;
+}
+
+#header .wrapper .menu > li > a:hover {
+  color: #888;
+}
+
+#header .wrapper .menu > li .NEX > ul {
+  position: absolute;
+  padding-left: 22px;
+  height: 0px;
+  left: 343px;
+  top: 44px;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+#header .wrapper .menu > li .NEX > ul li:hover a {
+  color: #b2b2b2;
+}
+
+#header .wrapper .menu > li .NEX > ul a {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#header .wrapper .menu > li .X > ul {
+  position: absolute;
+  padding-left: 22px;
+  height: 0px;
+  left: 441px;
+  top: 44px;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+#header .wrapper .menu > li .X > ul li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2em;
+  padding: 0.6em 0;
+}
+
+#header .wrapper .menu > li .X > ul li:hover a {
+  color: #b2b2b2;
+}
+
+#header .wrapper .menu > li .X > ul a {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#header .wrapper .menu > li .Z > ul {
+  position: absolute;
+  padding-left: 22px;
+  height: 0px;
+  left: 523px;
+  top: 44px;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+#header .wrapper .menu > li .Z > ul li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2em;
+  padding: 0.6em 0;
+}
+
+#header .wrapper .menu > li .Z > ul li:hover a {
+  color: #b2b2b2;
+}
+
+#header .wrapper .menu > li .Z > ul a {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#header .wrapper .menu > li .Y > ul {
+  position: absolute;
+  padding-left: 22px;
+  height: 0px;
+  left: 605px;
+  top: 44px;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+#header .wrapper .menu > li .Y > ul li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2em;
+  padding: 0.6em 0;
+}
+
+#header .wrapper .menu > li .Y > ul li:hover a {
+  color: #b2b2b2;
+}
+
+#header .wrapper .menu > li .Y > ul a {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#header .wrapper .menu > li .search {
+  width: 20px;
+  height: 20px;
+  background: url(../img/vvshop-sprites_c0b8fe7.png) no-repeat -116px -48px;
+  position: absolute;
+  right: 267px;
+  top: 10px;
+  cursor: pointer;
+}
+
+#header .wrapper .menu > li .custom {
+  width: 20px;
+  height: 38px;
+  background: url(../img/vvshop-sprites_c0b8fe7.png) no-repeat -117px -84px;
+  position: absolute;
+  right: 175px;
+  top: 10px;
+  cursor: pointer;
+}
+
+#header .wrapper .menu > li .custom-list {
+  width: 180px;
+  height: 0px;
+  position: absolute;
+  right: 173px;
+  top: 44px;
+  background: #fff;
+  z-index: 200;
+  font-family: 'Avenir Next ST', "Microsoft YaHei", "PingFang SC";
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+#header .wrapper .menu > li .custom-list li {
+  text-align: left;
+  height: 50px;
+  width: 100%;
+}
+
+#header .wrapper .menu > li .custom-list li:hover {
+  background: rgba(241, 239, 239, 0.945);
+}
+
+#header .wrapper .menu > li .custom-list li:nth-of-type(1) {
+  margin-top: 18px;
+}
+
+#header .wrapper .menu > li .custom-list li a {
+  color: #666;
+  line-height: 50px;
+  font-size: 14px;
+  padding: 0 38px;
+}
+
+#header .wrapper .menu > li .custom-list li a:hover {
+  color: #0087cd;
+}
+
+#header .wrapper .menu > li .custom-list li .registor {
+  padding: 0;
+}
+
+#header .wrapper .menu > li .custom-list li .logina {
+  padding-right: 0;
+}
